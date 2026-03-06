@@ -1,7 +1,8 @@
 const { Client, GatewayIntentBits } = require('discord.js');
 const bedrock = require('bedrock-protocol');
 
-const TOKEN = "MTQ3OTQyMzQ3NzgxMDIwMDY4OA.GN9yJh.lAlH-HIQ_sEOaaxusM0z2BhlvKtasfFVfFvXTk";
+// Use environment variable for token
+const TOKEN = process.env.TOKEN;
 
 const SERVER_HOST = "Afterhours-R6dg.aternos.me";
 const SERVER_PORT = 41390;
